@@ -1,0 +1,1280 @@
+code,description
+A_ALUM,aluminium and aluminium products
+A_ALUO,aluminium ores and concentrates
+A_ALUW,recycling of aluminium
+A_AL_INCI,incineration with energy recovery of aluminium
+A_AL_LAND,landfill of aluminium
+A_ASHW,recycling of ashes
+A_AS_LAND,landfill of ashes
+A_Agavs,agave fibres nes
+A_Almod,"almonds, without shell"
+A_Almol,"almonds, in shell"
+A_Anisr,"anise, badian, fennel"
+A_Appls,apples
+A_Apris,apricots
+A_Apriy,"apricots, dried"
+A_Arecs,areca nuts
+A_Artis,artichokes
+A_Aspas,asparagus
+A_Avocs,avocados
+A_BA_INCI,incineration with energy recovery of batteries and accumulators waste
+A_BA_INCI_no_recov,incineration without energy recovery of batteries and accumulators waste
+A_BA_LAND,landfill of batteries and accumulators waste
+A_BA_RECY,recycling of batteries and accumulators waste
+A_BRIK,"bricks, tiles and construction products, in baked clay"
+A_Bambs,bambara beans
+A_Banas,bananas
+A_Barly,barley
+A_Bastr,jute-like fibres
+A_Beann,"beans, green"
+A_Beany,"beans, dry"
+A_Beef_proc,beef meat processed (cuts and other)
+A_Beer,beer
+A_Berrs,berries nes
+A_Blues,blueberries
+A_Brazd,"brazil nuts, without shell"
+A_Brazl,"brazil nuts, in shell"
+A_Broay,"broad beans, dry"
+A_Buckt,buckwheat
+A_Bufmilk,buffalos - milk
+A_CHEM,chemicals nec
+A_CHMF,chemical and fertilizer minerals
+A_CHP,heat from combined heat and power
+A_CMNT,"cement, lime and plaster"
+A_COAL,mining of coal and lignite; extraction of peat (10)
+A_COIL,crude petroleum extraction
+A_COKE,coke oven coke
+A_COMP,computer and related services
+A_CONS,construction work
+A_CONW,recycling of construction waste
+A_COPO,copper ores and concentrates
+A_COPP,copper products
+A_COPW,recycling of copper
+A_CO_INCI,incineration with energy recovery of construction waste
+A_CO_INCI_no_recov,incineration without energy recovery of construction waste
+A_CO_LAND,landfill of construction waste
+A_CO_OTHE,other disposal of construction waste
+A_CRMC,ceramic goods
+A_CU_INCI,incineration with energy recovery of copper
+A_CU_LAND,landfill of copper
+A_Cabbs,cabbages
+A_Canad,canary seed
+A_Caros,carobs
+A_Carrs,carrot
+A_Cashd,"cashew nuts, without shell"
+A_Cashe,cashewapple
+A_Cashl,"cashew nuts, in shell"
+A_Cassa,cassava
+A_Cassd,"cassava, dried"
+A_Castd,castor beans
+A_Cauli,cauliflowers and broccoli
+A_Ceres,"cereals, nes"
+A_Cherr,sour cherries
+A_Chers,cherries
+A_Chest,chestnuts
+A_Chick,"chick-peas, dry"
+A_Chics,chicory roots
+A_Chiln,chillies and peppers (green)
+A_Chily,pimento
+A_Cinn,cinnamon (canella)
+A_Clovs,cloves
+A_Cocader,cocao derivates
+A_Cocoa,cocoa beans
+A_Cocod,"coconuts, desiccated"
+A_Cocon,coconuts
+A_Coffn,coffee green
+A_Cowmilk,cow milk
+A_Cowpea,"cow peas, dry"
+A_Crans,cranberries
+A_Cucus,cucumbers and gherkins
+A_Currs,currants
+A_DE_INCI,incineration with energy recovery of discarded equipment
+A_DE_INCI_no_recov,incineration without energy recovery of discarded equipment
+A_DE_LAND,landfill of discarded equipment
+A_DE_OTHE,other disposal of discarded equipment
+A_DE_RECY,recycling of discarded equipment
+A_DV_INCI,incineration with energy recovery of discarded vehicles
+A_DV_LAND,landfill of discarded vehicles
+A_DV_RECY,recycling of discarded vehicles
+A_Dates,dates
+A_EBOIL,heat from electric boilers
+A_EDUC,education services
+A_ELMA,electrical machinery and apparatus n.e.c.
+A_Eggpl,eggplants
+A_FABM,"fabricated metal products, except machinery and equipment"
+A_FAUX,services auxiliary to financial intermediation
+A_FINS,"insurance and pension funding services, except compulsory social security services"
+A_FINT,"financial intermediation services, except insurance and pension funding services"
+A_FOOD_w_water,waste water treatment of food
+A_FORE,"products of forestry, logging and related services"
+A_FO_OTHE,other disposal of food
+A_FO_RECY,composting of food waste
+A_FSHP,fish products
+A_FURN,furniture; other manufactured goods n.e.c.
+A_F_aqua,fish from aquaculture
+A_F_capture,fish from capture
+A_Figsd,"figs, dried"
+A_Figss,figs
+A_Flaxw,flax fibre and tow
+A_Fonio,fonio
+A_Frozfrui,"fruit, frozen"
+A_Frozvege,"vegetables, frozen"
+A_GARM,wearing apparel; furs
+A_GASD,distribution services of gaseous fuels through mains (excl the gas)
+A_GASE,natural gas extraction
+A_GLAS,glass and glass products
+A_GLAS_reuse,collection of glass bottles service
+A_GLAW,recycling of glass
+A_GL_INCI,incineration with energy recovery of glass
+A_GL_INCI_no_recov,incineration without energy recovery of glass
+A_GL_LAND,landfill of glass
+A_Garlc,garlic
+A_Germe,germ of maize
+A_Germt,germ of wheat
+A_Gingr,ginger
+A_Goamilk,goat milk
+A_Gooss,gooseberries
+A_Graid,mixed grain
+A_Grapf,grapefruit and pomelo
+A_Graps,grapes
+A_Grou_shld,"groundnuts, without shell"
+A_Groul,"groundnuts, in shell"
+A_HA_INCI,incineration with energy recovery of hazardous waste
+A_HA_INCI_no_recov,incineration without energy recovery of hazardous waste
+A_HA_LAND,landfill of hazardous waste
+A_HA_OTHE,other disposal of hazardous waste
+A_HA_RECY,recycling of hazardous waste
+A_HCHEM,heat by-product of chemical electricity generation
+A_HEAL,health and social work services
+A_HORE,hotel and restaurant services
+A_HPUMP,heat from heat pumps
+A_HWAT,heat (steam and hot water) from heat production
+A_Haze_shld,"hazelnuts, without shell"
+A_Hazel,"hazelnuts, in shell"
+A_Hempd,hempseed
+A_Honel,honey
+A_Hops,hops
+A_INCF,incineration with energy recovery of food
+A_INCF_no_recov,incineration without energy recovery of food
+A_INCL,incineration with energy recovery of plastic/rubber
+A_INCL_no_recov,incineration without energy recovery of plastic and rubber
+A_INCP,incineration with energy recovery of paper
+A_INCP_no_recov,incineration without energy recovery of paper
+A_INCW,incineration with energy recovery of wood
+A_INCW_no_recovery,incineration without energy recovery of wood waste
+A_IRON,iron ores
+A_Jojod,jojoba seeds
+A_Jufruveg,juice and fruit and veg prepared
+A_Jute,jute
+A_Kapod,"kapokseed, without shell"
+A_Kapot,kapok fruit
+A_Kari,karite nuts (sheanuts)
+A_Kfert,K fertilizer
+A_Kiwi,kiwi fruit
+A_Kola,kolanuts
+A_LANF,landfill of food
+A_LANL,landfill of plastic and rubber
+A_LANP,landfill of paper
+A_LANW,landfill of wood
+A_LETH,leather and leather products
+A_LZTO,"lead, zinc and tin ores and concentrates"
+A_LZTP,"lead, zinc and tin and products thereof"
+A_LZTW,"recycling of lead, zinc and tin"
+A_LZT_INCI,"incineration with energy recovery of lead, zinc and tin"
+A_LZT_LAND,"landfill of lead, zinc and tin"
+A_Leeks,leeks and other alliaceous vegetables
+A_Lemos,lemons and limes
+A_Lents,"lentils, dry"
+A_Letty,lettuce and chicory
+A_Linsd,linseed
+A_Lupis,lupins
+A_MACH,machinery and equipment n.e.c.
+A_MANC,land application of manure
+A_MARE,renting services of machinery and equipment without operator and of personal and household goods
+A_MA_INCI,incineration with energy recovery of manure
+A_MA_INCI_no_recov,incineration without energy recovery of manure
+A_MA_LAND,landfill of manure
+A_MA_OTHE,other disposal of manure
+A_MA_RECY,recycling of manure
+A_MDIA,printed matter and recorded media
+A_MEIN,"medical, precision and optical instruments, watches and clocks"
+A_METC,foundry work services
+A_MGWG,gas works gas (incl the gas)
+A_MM_INCI,incineration with energy recovery of mix metals
+A_MM_INCI_no_recov,incineration without energy recovery of mix metals
+A_MM_LAND,landfill of mix metals
+A_MM_OTHE,other disposal of mix metals
+A_MM_RECY,recycling of mix metals
+A_MNF_INCI,incineration with energy recovery of mix of non-ferrous metals
+A_MNF_INCI_no_recov,incineration without energy recovery of mix of non-ferrous metals
+A_MNF_LAND,landfill of mix of non-ferrous metals
+A_MNF_OTHE,other disposal of mix of non-ferrous metals
+A_MNF_RECY,recycling of mix of non-ferrous metals
+A_MOTO,other vehicles
+A_Maize,maize
+A_Maizn,green corn (maize)
+A_Mangs,mangoes
+A_Manila,abaca manila hemp
+A_Mate,mate
+A_Melon,"melons, cantaloupes"
+A_Melonse,melonseed
+A_Millt,millet
+A_Mushs,mushrooms
+A_Mustd,mustard seed
+A_NIKO,nickel ores and concentrates
+A_NK_fert,other nk compounds
+A_NPK,NPK fertilizer
+A_NP_fert,NP fertilizer
+A_NUCF,nuclear fuel
+A_N_AmmNit,ammonium nitrate (an)
+A_N_AmmSol,ammonium sulphate
+A_N_CaAmNit,calcium ammonium nitrate (can) and other mixtures with calcium carbonate
+A_N_solution,nitrogen solutions
+A_N_urea,urea
+A_Nat_Elec,domestic electricity
+A_Nat_Fish,domestic production of fish
+A_Nat_Heat,domestic heat
+A_Nutms,"nutmeg, mace, cardamoms"
+A_Nutss,nuts nes
+A_OBUS,other business services
+A_OFMA,office machinery and computers
+A_OGPL,other hydrocarbons
+A_ONFM,other non-ferrous metal products
+A_ONFO,other non-ferrous metal ores and concentrates
+A_ONFW,recycling of other non-ferrous metals
+A_ONF_INCI,incineration with energy recovery of other non-ferrous metals
+A_ONF_LAND,landfill of other non-ferrous metals
+A_ONMM,other non-metallic mineral products
+A_ORAN,uranium and thorium ores
+A_ORGA,membership organisation services n.e.c.
+A_OSER,"other services (e.g. spiritualists, dating services, shoe shiners, porters)"
+A_OTRE,other transport equipment
+A_Oatss,oats
+A_Oiloliv,olive oil
+A_Oilpalm,palm oil
+A_Oilrape,rapeseed oil
+A_Oilsoy,soybean oil
+A_Oilss,oilseeds nes
+A_Okraa,okra
+A_Olivs,olives
+A_Onion,"onions, shallots (green)"
+A_Onioy,"onions, dry"
+A_Orans,oranges
+A_Othalbev,other alcoholic beverages
+A_Othdiar,other diary products
+A_Othflour,other flour
+A_Othmeat,other anim
+A_Othproc,other processed food
+A_Othvoils,other vegetable oil
+A_PADF,public administration and defence services; compulsory social security services
+A_PAPE,paper and paper products
+A_PAPR,recycling of paper
+A_PA_OTHE,other disposal of paper
+A_PK_fert,pk compounds
+A_PLAS,"plastics, basic"
+A_PLAW,recycling of plastic and rubber
+A_PL_OTHE,other disposal of plastic and rubber
+A_PM_INCI,incineration with energy recovery of precious metals
+A_PM_LAND,landfill of precious metals
+A_POWB,electricity by biomass and waste
+A_POWC,electricity by coal
+A_POWD,distribution and trade services of electricity (excl the electricity)
+A_POWG,electricity by gas
+A_POWH,electricity by hydro
+A_POWM,electricity by geothermal
+A_POWN,electricity by nuclear
+A_POWO,"electricity by tide, wave, ocean"
+A_POWP,electricity by petroleum and other oil derivatives
+A_POWS,electricity by solar photovoltaic
+A_POWT,transmission services of electricity (excl the electricity)
+A_POWW,electricity by wind
+A_POWZ,electricity nec
+A_PREM,precious metals
+A_PREO,precious metal ores and concentrates
+A_PREW,recycling of precious metals
+A_PRHH,"private households with employed persons (maids, cooks, waiters, gardeners, gatekeepers, chauffeurs etc)"
+A_PTEL,post and telecommunication services
+A_PULP,pulp
+A_Papas,papayas
+A_Pasta,pasta
+A_Peacs,peaches and nectarines
+A_Pears,pears
+A_Peasn,"peas, green"
+A_Peasy,"peas, dry"
+A_Pepp,pepper
+A_Peppt,"peppermint, spearmint"
+A_Perss,persimmons
+A_Pfert,phosphatic fertilizer
+A_Piges,pigeon peas
+A_Pines,pineapples
+A_Pists,pistachios
+A_Plans,plantains
+A_Plum,"plums, dried"
+A_Plums,plums
+A_Poleggs,poultry - eggs
+A_Poppd,poppy seed
+A_Pork_proc,pork meat processed (cuts and other)
+A_Potas,potatoes
+A_Prmilk,processed milk
+A_Prorice,rice
+A_Pulss,pulses nes
+A_Pumps,"pumpkins, squash and gourds"
+A_Pyred,"pyrethrum, dried flowers"
+A_Quina,quinoa
+A_Quins,quinces
+A_RATV,"radio, television and communication equipment and apparatus"
+A_REAL,real estate services
+A_RECR,"recreational, cultural and sporting services"
+A_REFN,petroleum refinery
+A_RESD,research and development services
+A_RUBP,rubber and plastic products
+A_RYMS,services relating to the collection and sorting of scrap/secondary materials (excl the material)
+A_Ramie,ramie
+A_Raped,rapeseed or colza seed
+A_Rasps,raspberries
+A_Ricey,"rice, paddy"
+A_Roots,roots and tubers nes
+A_Roscoff,roasted coffe
+A_Rubber,natural rubber
+A_Ryee,rye
+A_SDCL,sand and clay
+A_SE_INCI,incineration with energy recovery of sewage
+A_SE_INCI_no_recov,incineration without energy recovery of sewage
+A_SE_LAND,landfill of sewage
+A_SE_OTHE,other disposal of sewage
+A_SE_RECY,recycling of sewage
+A_SE_biog,biogasification and land application of sewage
+A_SE_wwater,provision of waste water services for sewage
+A_STEL,basic iron and steel and of ferro-alloys and first products thereof
+A_STEW,recycling of steel
+A_STON,stone
+A_ST_INCI,incineration with energy recovery of steel
+A_ST_INCI_no_recov,incineration without energy recovery of steel
+A_ST_LAND,landfill of steel
+A_ST_OTHE,other disposal of steel
+A_Saffd,safflower seed
+A_Seedcot,seedcotton
+A_Sesad,sesame seed
+A_Shemilk,sheep - milk
+A_Silk_ree,"cocoons, reelable"
+A_Silkw,"silk, raw"
+A_Sisal,sisal
+A_Snaia,snails and sea snails
+A_Sorgm,sorghum
+A_Soybs,soybeans
+A_Spics,spices nes
+A_Spinh,spinach
+A_Stras,strawberries
+A_Stris,string beans
+A_Sugae,sugar cane
+A_Sugar,sugars
+A_Sugas,sugar crops nes
+A_Sugat,sugar beet
+A_Sunfd,sunflower seed
+A_Swees,sweet potatoes
+A_TAIR,"transport, air"
+A_TAUX,supporting and auxiliary transport services; travel agency services
+A_TDFU,retail trade services of motor fuel
+A_TDMO,"sale, maintenance and repair of motor vehicles"
+A_TDRT,"retail trade services, except of motor vehicles and motorcycles; repair services of personal and household goods"
+A_TDWH,"wholesale trade and commission trade services, except of motor vehicles and motorcycles"
+A_TEXT,textiles
+A_TE_INCI,incineration with energy recovery of textiles
+A_TE_INCI_no_recov,incineration without energy recovery of textiles
+A_TE_LAND,landfill of textiles
+A_TE_RECY,recycling of textiles
+A_TLND,"transport, road"
+A_TOBC,tobacco products
+A_TPIP,"transport service, pipeline"
+A_TRAI,"transport, railway"
+A_TWAI,"transport, inland water"
+A_TWAS,"transport, sea and costal water"
+A_Talld,tallowtree seeds
+A_Taro,taro (cocoyam)
+A_Teaa,tea
+A_Tmand,"tangerines, mandarins, clementines, satsumas"
+A_Tobac,tobacco leaves
+A_Tomas,"tomatoes, fresh"
+A_Trite,triticale
+A_Tung_nuts,tung nuts
+A_UN_INCI,incineration with energy recovery of unsorted waste
+A_UN_INCI_no_recov,incineration without energy recovery of unsorted waste
+A_UN_LAND,landfill of unsorted waste
+A_UN_OTHE,other disposal of unsorted waste
+A_UN_RECY,recycling of unsorted waste
+A_Vania,vanilla
+A_Vegfats,vegetable fats
+A_Vegleg_nes,"broad beans, green"
+A_Vetcs,vetches
+A_WATR,"collected and purified water, distribution services of water"
+A_WOOD,wood and products of wood and cork (except furniture); articles of straw and planting materials
+A_WOOW,recycling of wood
+A_WO_OTHE,other disposal of wood
+A_Walnd,"walnuts, without shell"
+A_Walnl,"walnuts, in shell"
+A_Wates,watermelons
+A_Wheat,wheat
+A_Whflour,wheat flour
+A_Wine,wine
+A_Yams,yams
+A_auto,cars
+A_bus,buses
+A_frtrop_nes,"fruit, tropical (fresh) nes"
+A_lCammeat,camel meat
+A_lCatmeat,cattle meat
+A_lGoameat,goat meat
+A_lPolmeat,poultry
+A_lShemeat,sheep meat
+A_lSwmeat,swine
+A_oFibrs,fibre crops nes
+A_oFru_cit,citrus fruit nes
+A_oFru_fresh,"fruit, fresh nes"
+A_oFru_pom,pome fruit nes
+A_oFru_ston,"stone fruit, fresh nes"
+A_oVege_fresh,"vegetables, fresh n.e.s."
+A_pBovmeat,beef meat as carcass
+A_pDermeat,"other products from meat (lard, fat, homogenized meat)"
+A_pMuGomeat,mutton and goat meat
+A_pOthmeat,meat other
+A_pPigmeat,pig meat as carcass
+A_pPolmeat,poultry meat
+A_palm,oil palm fruit
+A_truck,trucks
+Arable Land,"global market, arable"
+EF_AGSL,"aviation gasoline, combustion of"
+EF_ANTH,"anthracite, combustion of"
+EF_BIOD,"biodiesels, combustion of"
+EF_BIOG,"biogasoline, combustion of"
+EF_BITU,"bitumen, combustion of"
+EF_BKBP,"bkb/peat briquettes, combustion of"
+EF_CHAR,"charcoal, combustion of"
+EF_COIL,"crude petroleum and services related to crude oil extraction, excluding surveying, combustion of"
+EF_COKC,"coking coal, combustion of"
+EF_COKE,"coke oven coke, combustion of"
+EF_COOG,"coke oven gas, combustion of"
+EF_COTA,"coal tar, combustion of"
+EF_DOIL,"gas/diesel oil, combustion of"
+EF_ETHA,"ethane, combustion of"
+EF_FOIL,"heavy fuel oil, combustion of"
+EF_FORE,"products of forestry, logging and related services (02), combustion of"
+EF_GASE,"natural gas and services related to natural gas extraction, excluding surveying, combustion of"
+EF_GASL,"natural gas liquids, combustion of"
+EF_GCOK,"gas coke, combustion of"
+EF_GJET,"gasoline type jet fuel, combustion of"
+EF_KERO,"kerosene, combustion of"
+EF_KJET,"kerosene type jet fuel, combustion of"
+EF_LIBC,"lignite/brown coal, combustion of"
+EF_LPGA,"liquefied petroleum gases (lpg), combustion of"
+EF_LUBR,"lubricants, combustion of"
+EF_MBFG,"blast furnace gas, combustion of"
+EF_MBIO,"biogas, combustion of"
+EF_MGSL,"motor gasoline, combustion of"
+EF_MGWG,"gas works gas, combustion of"
+EF_MOSG,"oxygen steel furnace gas, combustion of"
+EF_NAPT,"naphtha, combustion of"
+EF_NSPP,"non-specified petroleum products, combustion of"
+EF_OTBC,"other bituminous coal, combustion of"
+EF_PARW,"paraffin waxes, combustion of"
+EF_PATF,"patent fuel, combustion of"
+EF_PEAT,"peat, combustion of"
+EF_PETC,"petroleum coke, combustion of"
+EF_RGAS,"refinery gas, combustion of"
+EF_SUBC,"sub-bituminous coal, combustion of"
+EF_WHSP,"white spirit & sbp, combustion of"
+Forest Land,"global market, forest"
+Grassland,"global market, grass land"
+M_ADDC,additives/blending components
+M_AGSL,aviation gasoline
+M_ALUM,aluminium and aluminium products
+M_ALUO,aluminium ores and concentrates
+M_ALUW,recycling of aluminium
+M_AL_INCI,incineration with energy recovery of aluminium
+M_AL_LAND,landfill of aluminium
+M_ANTH,anthracite
+M_ASHW,recycling of ashes
+M_AS_LAND,landfill of ashes
+M_Agavs,agave fibres nes
+M_Almod,"almonds, without shell"
+M_Almol,"almonds, in shell"
+M_Anisr,"anise, badian, fennel"
+M_Appls,apples
+M_Apris,apricots
+M_Apriy,"apricots, dried"
+M_Arecs,areca nuts
+M_Artis,artichokes
+M_Aspas,asparagus
+M_Avocs,avocados
+M_BA_INCI,energy recovery of batteries and accumulators waste
+M_BA_INCI_no_recov,incineration without energy recovery of batteries and accumulators waste
+M_BA_LAND,landfill of batteries and accumulators waste
+M_BA_RECY,recycling of batteries and accumulators waste
+M_BIOD,biodiesels
+M_BIOG,biogasoline
+M_BITU,bitumen
+M_BKBP,bkb/peat briquettes
+M_BRIK,"bricks, tiles and construction products, in baked clay"
+M_Bambs,bambara beans
+M_Banas,bananas
+M_Barld,"barley, pearled"
+M_Barlt,pot barley
+M_Barly,barley
+M_Bastr,jute-like fibres
+M_Beann,"beans, green"
+M_Beany,"beans, dry"
+M_Beef_ges,sausages of beef and veal
+M_Beef_ked,"beef and veal, dried, salted, smoked"
+M_Beef_ons,beef and veal preparations nes
+M_Beef_proc,"beef meat processed (cuts and other), global mix"
+M_Beef_veal,beef meat processed (boneless)
+M_Beer,beer
+M_Beer_barl,beer of barley
+M_Beer_maiz,beer of millet
+M_Beer_millet,beer of maize
+M_Beer_sorg,beer of sorghum
+M_Beesx,beeswax
+M_Berrs,berries nes
+M_Bev_dstl,"beverages, distilled alcoholic"
+M_Bev_ferm,rice-fermented beverages
+M_Blues,blueberries
+M_Bran_ bar,bran of barley
+M_Bran_ buc,bran of buckwheat
+M_Bran_ cer,bran of cereals nes
+M_Bran_ fon,bran of fonio
+M_Bran_ mai,bran of maize
+M_Bran_ mil,bran of millet
+M_Bran_ mix,bran of mixed grain
+M_Bran_ oat,bran of oats
+M_Bran_ pul,bran of pulses
+M_Bran_ ric,bran of rice
+M_Bran_ rye,bran of rye
+M_Bran_ sor,bran of sorghum
+M_Bran_ tri,bran of triticale
+M_Bran_ whe,bran of wheat
+M_Brazd,"brazil nuts, without shell"
+M_Brazl,"brazil nuts, in shell"
+M_Bread,bread
+M_Broay,"broad beans, dry"
+M_Buckt,buckwheat
+M_Bufmeat,meat from buffalo (live)
+M_Bufmilk,milk raw from buffalo
+M_Butt_buff,butter of buffalo milk
+M_Butt_cow,butter of cow milk
+M_Butt_goat,butter of goat milk
+M_Butt_sheep,butter and ghee of sheep milk
+M_Buttk,"buttermilk, curdled milk, acidified milk"
+M_Butts,butter of karite nuts
+M_CHAR,charcoal
+M_CHEM,chemicals nec
+M_CHMF,chemical and fertilizer minerals
+M_CHP,"heat from combined heat and power, global mix"
+M_CMNT,"cement, lime and plaster"
+M_COAL,coal
+M_COIL,crude petroleum extraction
+M_COKC,coking coal
+M_COKE,coke oven coke
+M_COMP,computer and related services
+M_CONS,construction work
+M_CONW,recycling of construction waste
+M_COOG,coke oven gas
+M_COPO,copper ores and concentrates
+M_COPP,copper products
+M_COPW,recycling of copper
+M_COTA,coal tar
+M_CO_INCI,incineration with energy recovery of construction waste
+M_CO_INCI_no_recov,incineration without energy recovery of construction waste
+M_CO_LAND,landfill of construction waste
+M_CO_OTHE,other disposal of construction waste
+M_CRMC,ceramic goods
+M_CU_INCI,incineration with energy recovery of copper
+M_CU_LAND,landfill of copper
+M_Cabbs,cabbages
+M_Cammilk,milk raw from camel
+M_Canad,canary seed
+M_Caros,carobs
+M_Carrs,carrot
+M_Casen,casein
+M_Cashd,"cashew nuts, without shell"
+M_Cashe,cashewapple
+M_Cashl,"cashew nuts, in shell"
+M_Cassa,cassava
+M_Cassd,"cassava, dried"
+M_Casss,cassava leaves
+M_Castd,castor beans
+M_Catmeat,meat from cattle (live)
+M_Catmilk,milk raw from cow
+M_Cauli,cauliflowers and broccoli
+M_Cer_brkf,breakfast cereals
+M_Cer_prep,cereal preparations
+M_Ceres,"cereals, nes"
+M_Chee_buff,cheese of buffalo milk
+M_Chee_cow_sk,cheese from skimmed cow milk
+M_Chee_cow_wh,cheese from whole cow milk
+M_Chee_goat,cheese of goat milk
+M_Chee_proc,processed cheese
+M_Chee_sheep,cheese of sheep milk
+M_Cherr,sour cherries
+M_Chers,cherries
+M_Chest,chestnuts
+M_Chick,"chick-peas, dry"
+M_Chics,chicory roots
+M_Chiln,chillies and peppers (green)
+M_Chily,pimento
+M_Chocs,chocolate products nes
+M_Cider,"cider, etc."
+M_Cinn,cinnamon (canella)
+M_Ckcopra,cake of copra
+M_Ckcotton,cake of cottonseed
+M_Ckgound,cake of groundnuts
+M_Ckkapok,cake of kapok
+M_Cklins,cake of linseed
+M_Ckmaize,cake of maize
+M_Ckmust,cake of mustard seed
+M_Ckpalm,cake of palm kernel
+M_Ckrapes,cake of rapeseed
+M_Ckriceb,cake of rice bran
+M_Cksaffl,cake of safflower seed
+M_Cksesam,cake of sesame seed
+M_Cksoyb,cake of soybeans
+M_Cksunf,cake of sunflower seed
+M_Clovs,cloves
+M_Coamilk,milk raw from goat
+M_Cocader,cocao derivates
+M_Coco_but,cocoa butter
+M_Coco_husk,cocoa husks and shells
+M_Coco_pas,cocoa paste
+M_Coco_pow,cocoa powder and cake
+M_Cocoa,cocoa beans
+M_Cocod,"coconuts, desiccated"
+M_Cocon,coconuts
+M_Coff_ext,coffee extracts
+M_Coff_sub,coffee substitutes
+M_Coffe_roas,"coffee, roasted"
+M_Coffn,coffee green
+M_Coirr,coir
+M_Copra,copra
+M_Cottd,cottonseed
+M_Cotton,cotton lint
+M_Cowmilk,"milk raw from cow, global mix"
+M_Cowpea,"cow peas, dry"
+M_Crans,cranberries
+M_Creah,"cream, fresh"
+M_Cucus,cucumbers and gherkins
+M_Currs,currants
+M_DE_INCI,incineration with energy recovery of discarded equipment
+M_DE_INCI_no_recov,incineration without energy recovery of discarded equipment
+M_DE_LAND,landfill of discarded equipment
+M_DE_OTHE,other disposal of discarded equipment
+M_DE_RECY,recycling of discarded equipment
+M_DOIL,gas/diesel oil
+M_DV_INCI,incineration with energy recovery of discarded vehicles
+M_DV_LAND,landfill of discarded vehicles
+M_DV_RECY,recycling of discarded vehicles
+M_Dates,dates
+M_EBOIL,heat from electric boilers
+M_EDUC,education services
+M_ELMA,electrical machinery and apparatus n.e.c.
+M_ETHA,ethane
+M_Eggpl,eggplants
+M_Eggsl,"eggs, hen, in shell"
+M_FABM,"fabricated metal products, except machinery and equipment"
+M_FAUX,services auxiliary to financial intermediation
+M_FINS,"insurance and pension funding services, except compulsory social security services"
+M_FINT,"financial intermediation services, except insurance and pension funding services"
+M_FISH,fish and other fishing products; services incidental of fishing
+M_FOIL,heavy fuel oil
+M_FOOD_w_water,waste water treatment of food
+M_FORE,"products of forestry, logging and related services"
+M_FO_OTHE,other disposal of food
+M_FO_RECY,recycling of food
+M_FSHP,fish products
+M_FURN,furniture; other manufactured goods n.e.c.
+M_F_aqua,fish from aquaculture
+M_F_capture,fish from capture
+M_Fat_ac,fatty acids
+M_Fat_buff,fat of buffalo
+M_Fat_cam,fat of camels
+M_Fat_cow,fat of cattle
+M_Fat_goat,fat of goats
+M_Fat_live,fatty liver preparations
+M_Fat_nes,fat preparations nes
+M_Fat_othe,fat of other camelids
+M_Fat_pig,fat of pigs
+M_Fat_poul,fat of poultry
+M_Fat_poul_ren,"fat of poultry, rendered"
+M_Fat_sheep,fat of sheep
+M_Fat_sub,residues of fatty substances
+M_Figsd,"figs, dried"
+M_Figss,figs
+M_Flaxw,flax fibre and tow
+M_Flour_barl,barley flour and grits
+M_Flour_buck,flour of buckwheat
+M_Flour_cass,flour of cassava
+M_Flour_foni,flour of fonio
+M_Flour_frui,flour of fruits
+M_Flour_maiz,flour of maize
+M_Flour_mill,flour of millet
+M_Flour_mixe,flour of mixed grain
+M_Flour_must,flour of mustard seed
+M_Flour_nes,food preparations nes
+M_Flour_pota,flour of potatoes
+M_Flour_puls,flour of pulses
+M_Flour_rice,flour of rice
+M_Flour_root,flour of roots and tubers nes
+M_Flour_rye,flour of rye
+M_Flour_sorg,flour of sorghum
+M_Flour_trit,flour of triticale
+M_Flour_whea,flour of wheat
+M_Fonio,fonio
+M_Frozfrui,frozen fruit
+M_Frozvege,frozen vegetables
+M_Frucr,other fructose and syrup
+M_Frudry,"fruit, dried nes"
+M_Fruhom,"homogenized cooked fruit, prepared"
+M_Fruprep,"fruit, prepared nes"
+M_GARM,wearing apparel; furs
+M_GASD,distribution services of gaseous fuels through mains (excl the gas)
+M_GASE,natural gas extraction
+M_GASL,natural gas liquids
+M_GCOK,gas coke
+M_GJET,gasoline type jet fuel
+M_GLAS,glass and glass products
+M_GLAS_reuse,collection of glass bottles service
+M_GLAW,recycling of glass
+M_GL_INCI,incineration with energy recovery of glass
+M_GL_INCI_no_recov,incineration without energy recovery of glass
+M_GL_LAND,landfill of glass
+M_Garlc,garlic
+M_Germe,germ of maize
+M_Germt,germ of wheat
+M_Ghee_buff,"ghee, from buffalo milk"
+M_Ghee_cow,ghee from cow milk
+M_Gingr,ginger
+M_Gluce,glucose and dextrose
+M_Gluten_mais,maize gluten
+M_Gluten_rice,"rice, gluten"
+M_Gluten_wht,wheat gluten
+M_Goameat,meat from goat (live)
+M_Gooss,gooseberries
+M_Graid,mixed grain
+M_Grapf,grapefruit and pomelo
+M_Graps,grapes
+M_Grapt,must of grape
+M_Grou_prep,prepared groundnuts
+M_Grou_shld,"groundnuts, without shell"
+M_Groul,"groundnuts, in shell"
+M_HA_INCI,incineration with energy recovery of hazardous waste
+M_HA_INCI_no_recov,incineration without energy recovery of hazardous waste
+M_HA_LAND,landfill of hazardous waste
+M_HA_OTHE,other disposal of hazardous waste
+M_HA_RECY,recycling of hazardous waste
+M_HCHEM,heat by-product of chemical electricity generation
+M_HEAL,health and social work services
+M_HORE,hotel and restaurant services
+M_HPUMP,"heat from electric boilers, global mix"
+M_HWAT,heat (steam and hot water) from heat production
+M_Haze_shld,"hazelnuts, without shell"
+M_Hazel,"hazelnuts, in shell"
+M_Hemp,hemp fibre and tow
+M_Hempd,hempseed
+M_Hide_buff,"buffalo hides, fresh"
+M_Hide_cow,"cattle hides, fresh"
+M_Honel,honey
+M_Hops,hops
+M_INCF,incineration with energy recovery of food
+M_INCF_no_recov,incineration without energy recovery of food
+M_INCL,incineration with energy recovery of plastic/rubber
+M_INCL_no_recov,incineration without energy recovery of plastic and rubber
+M_INCP,incineration with energy recovery of paper
+M_INCP_no_recov,incineration without energy recovery of paper
+M_INCW,incineration with energy recovery of wood
+M_INCW_no_recovery,incineration without energy recovery of wood waste
+M_IRON,iron ores
+M_Ice e,ice cream and edible ice
+M_Isoge,isoglucose
+M_Jojod,jojoba seeds
+M_Jufruveg,juice and fruit and veg prepared
+M_Juice_appl,apple juice
+M_Juice_appl_con,"apple juice, concentrated"
+M_Juice_frui,juice of fruits nes
+M_Juice_grapef,"grapefruit juice, concentrated"
+M_Juice_grapes,juice of grape
+M_Juice_grapfrt,juice of grapefruit
+M_Juice_lemo,juice of lemon
+M_Juice_lemo_con,"lemon juice, concentrated"
+M_Juice_mang,juice of mango
+M_Juice_oran,juice of orange
+M_Juice_oran_con,"orange juice, concentrated"
+M_Juice_pine,juice of pineapples
+M_Juice_pine_con,"juice of pineapples, concentrated"
+M_Juice_tang,"juice of tangerine, mandarin and clementin"
+M_Juice_toma,juice of tomatoes
+M_Juice_vege,juice of vegetables nes
+M_Jute,jute
+M_K2Ofert,K fertilizer
+M_KERO,kerosene
+M_KJET,kerosene type jet fuel
+M_Kapod,"kapokseed, without shell"
+M_Kapol,"kapokseed, in shell"
+M_Kapot,kapok fruit
+M_Kari,karite nuts (sheanuts)
+M_Kfert,K fertilizer
+M_Kiwi,kiwi fruit
+M_Kola,kolanuts
+M_LANF,landfill of food
+M_LANL,landfill of plastic and rubber
+M_LANP,landfill of paper
+M_LANW,landfill of wood
+M_LETH,leather and leather products
+M_LIBC,lignite/brown coal
+M_LPGA,liquefied petroleum gases (lpg)
+M_LUBR,lubricants
+M_LZTO,"lead, zinc and tin ores and concentrates"
+M_LZTP,"lead, zinc and tin and products thereof"
+M_LZTW,"recycling of lead, zinc and tin"
+M_LZT_INCI,"incineration with energy recovery of lead, zinc and tin"
+M_LZT_LAND,"landfill of lead, zinc and tin"
+M_Lacte,lactose
+M_Lard,lard
+M_Lardl,lard stearine and lard oil
+M_Leeks,leeks and other alliaceous vegetables
+M_Lemos,lemons and limes
+M_Lents,"lentils, dry"
+M_Letty,lettuce and chicory
+M_Linsd,linseed
+M_Lupis,lupins
+M_MACH,machinery and equipment n.e.c.
+M_MANC,land application of manure
+M_MARE,renting services of machinery and equipment without operator and of personal and household goods
+M_MA_INCI,incineration with energy recovery of manure
+M_MA_INCI_no_recov,incineration without energy recovery of manure
+M_MA_LAND,landfill of manure
+M_MA_OTHE,other disposal of manure
+M_MA_RECY,recycling of manure
+M_MBFG,blast furnace gas
+M_MBIO,biogas
+M_MDIA,printed matter and recorded media
+M_MEIN,"medical, precision and optical instruments, watches and clocks"
+M_METC,foundry work services
+M_MGSL,motor gasoline
+M_MGWG,gas works gas (incl the gas)
+M_MM_INCI,incineration with energy recovery of mix metals
+M_MM_INCI_no_recov,incineration without energy recovery of mix metals
+M_MM_LAND,landfill of mix metals
+M_MM_OTHE,other disposal of mix metals
+M_MM_RECY,recycling of mix metals
+M_MNF_INCI,incineration with energy recovery of mix of non-ferrous metals
+M_MNF_INCI_no_recov,incineration without energy recovery of mix of non-ferrous metals
+M_MNF_LAND,landfill of mix of non-ferrous metals
+M_MNF_OTHE,other disposal of mix of non-ferrous metals
+M_MNF_RECY,recycling of mix of non-ferrous metals
+M_MOSG,oxygen steel furnace gas
+M_MOTO,other vehicles
+M_Macai,macaroni
+M_Maize,maize
+M_Maizn,green corn (maize)
+M_Malt_ext,malt extract
+M_Maltt,malt
+M_Mangp,mango pulp
+M_Mangs,mangoes
+M_Manila,abaca manila hemp
+M_Margd,liquid margarine
+M_Margt,margarine and shortening
+M_Mate,mate
+M_Meat_ass,meat of asses
+M_Meat_beef,beef meat as carcass
+M_Meat_buff,"buffalo meat as carcass, global mix"
+M_Meat_chic,chicken meat
+M_Meat_drie,"meat, dried nes"
+M_Meat_duck,duck meat
+M_Meat_extr,meat extracts
+M_Meat_game,game meat
+M_Meat_goat,goat meat as carcass
+M_Meat_goos,goose meat
+M_Meat_homo,homogenized meat preparations
+M_Meat_hors,horse meat
+M_Meat_mule,meat of mules
+M_Meat_nes,"meat, prepared nes"
+M_Meat_ocAM,meat of other domestic camelids
+M_Meat_othe,meat of other domestic rodents
+M_Meat_pig,pig meat as carcass
+M_Meat_prnes,meat nes
+M_Meat_rabb,rabbit meat
+M_Meat_shee,meat of sheep
+M_Meat_turk,turkey meat
+M_Melon,"melons, cantaloupes"
+M_Melonse,melonseed
+M_Milk_dry ,"milk, dry buttermilk"
+M_Milk_prod,"products of natural milk constitue, nes"
+M_Milk_skim_buff,skim milk of buffalo
+M_Milk_skim_cow,skim milk of cows
+M_Milk_skim_dried,dry skim cow milk
+M_Milk_skim_she,skim sheep milk
+M_Millt,millet
+M_Mixes,mixes and doughs
+M_Molas,molasses
+M_Mush_can,canned mushrooms
+M_Mush_dry,dried mushrooms
+M_Mushs,mushrooms
+M_Mustd,mustard seed
+M_NAPT,naphtha
+M_NIKO,nickel ores and concentrates
+M_NK_fert,other nk compounds
+M_NPK,NPK fertilizer
+M_NP_fert,NP fertilizer
+M_NSPP,non-specified petroleum products
+M_NUCF,nuclear fuel
+M_N_AmmNit,ammonium nitrate (an)
+M_N_AmmSol,ammonium sulphate
+M_N_CaAmNit,calcium ammonium nitrate (can) and other mixtures with calcium carbonate
+M_N_solution,nitrogen solutions
+M_N_urea,urea
+M_Nat_Elec,"electricity, mix of domestic production"
+M_Nat_Fish,"fish, mix of domestic production"
+M_Nat_Heat,"heat, mix of domestic production"
+M_Nfert,N fertilizer
+M_Nutms,"nutmeg, mace, cardamoms"
+M_Nuts,prepared nuts
+M_Nutss,nuts nes
+M_OBUS,other business services
+M_OFMA,office machinery and computers
+M_OGPL,"hydrocarbons, other"
+M_ONFM,other non-ferrous metal products
+M_ONFO,other non-ferrous metal ores and concentrates
+M_ONFW,recycling of other non-ferrous metals
+M_ONF_INCI,incineration with energy recovery of other non-ferrous metals
+M_ONF_LAND,landfill of other non-ferrous metals
+M_ONMM,other non-metallic mineral products
+M_ORAN,uranium and thorium ores
+M_ORGA,membership organisation services n.e.c.
+M_OSER,"other services (e.g. spiritualists, dating services, shoe shiners, porters)"
+M_OTBC,other bituminous coal
+M_OTRE,other transport equipment
+M_Oatsd,"oats, rolled"
+M_Oatss,oats
+M_Offa_chick,offals and liver of chickens
+M_Offa_duck,offals and liver of ducks
+M_Offa_geese,offals and liver of geese
+M_Offa_turkey,offals and liver of turkey
+M_Offae_cow,"offals of cattle, edible"
+M_Offae_pigs,"offals of pigs, edible"
+M_Offae_shee,"offals of sheep, edible"
+M_Offas_buff,"offals of buffalo, edible"
+M_Offas_came,"offals of camels, edibles"
+M_Offas_goat,"offals of goats, edible"
+M_Offas_hors,offals of horses
+M_Oil_coco,oil of coconuts
+M_Oil_cott,oil of cottonseed
+M_Oil_grou,oil of groundnuts
+M_Oil_hemp,oil of hempseed
+M_Oil_hydr,hydrogenated oils and fats
+M_Oil_kapo,oil of kapok
+M_Oil_lins,oil of linseed
+M_Oil_maiz,oil of maize
+M_Oil_must,oil of mustard seed
+M_Oil_olive,"oil of olives, virgin"
+M_Oil_olivres,oil of olive residues
+M_Oil_pal_ker,oil of palm kernel
+M_Oil_palm,oil of palm
+M_Oil_popp,oil of poppy seed
+M_Oil_rape,oil of rapeseed or canola oil
+M_Oil_rice,oil of rice bran
+M_Oil_saff,oil of safflower seed
+M_Oil_sesa,oil of sesame seed
+M_Oil_soyb,oil of soybeans
+M_Oil_sunf,oil of sunflower seed
+M_Oiloliv,olive oil
+M_Oilpalm,palm oil
+M_Oilrape,"oil, tung nuts"
+M_Oils_nes,animal oils and fats nes
+M_Oilsoy,soybean oil
+M_Oilss,oilseeds nes
+M_Okraa,okra
+M_Olivs,olives
+M_Onion,"onions, shallots (green)"
+M_Onioy,"onions, dry"
+M_Orans,oranges
+M_Othalbev,other alcoholic beverages
+M_Othanpr,other animal products
+M_Othdiar,other diary products
+M_Othflour,other flour
+M_Othmeat,"animals, other"
+M_Othproc,other processed food
+M_Othvoils,other vegetable oil
+M_P2O5fert,P fertilizer
+M_PADF,public administration and defence services; compulsory social security services
+M_PAPE,paper and paper products
+M_PAPR,recycling of paper
+M_PARW,paraffin waxes
+M_PATF,patent fuel
+M_PA_OTHE,other disposal of paper
+M_PEAT,peat
+M_PETC,petroleum coke
+M_PK_fert,pk compounds
+M_PLAS,"plastics, basic"
+M_PLAW,recycling of plastic and rubber
+M_PL_OTHE,other disposal of plastic and rubber
+M_PM_INCI,incineration with energy recovery of precious metals
+M_PM_LAND,landfill of precious metals
+M_POWB,"electricity by biomass and waste, global mix"
+M_POWC,"electricity by coal, global mix"
+M_POWD,distribution and trade services of electricity (excl the electricity)
+M_POWG,"electricity by gas, global mix"
+M_POWH,"electricity by hydro, global mix"
+M_POWM,"electricity by geothermal, global mix"
+M_POWN,"electricity by nuclear, global mix"
+M_POWO,"electricity by tide, wave, ocean, global mix"
+M_POWP,"electricity by petroleum and other oil derivatives, global mix"
+M_POWS,"electricity by solar photovoltaic, global mix"
+M_POWT,transmission services of electricity (excl the electricity)
+M_POWW,"electricity by wind, global mix"
+M_POWZ,"electricity nec, global mix"
+M_PREM,precious metals
+M_PREO,precious metal ores and concentrates
+M_PREW,recycling of precious metals
+M_PRHH,"private households with employed persons (maids, cooks, waiters, gardeners, gatekeepers, chauffeurs etc)"
+M_PTEL,post and telecommunication services
+M_PULP,pulp
+M_Papas,papayas
+M_Pasta,pasta
+M_Pasty,pastry
+M_Peacs,peaches and nectarines
+M_Peanr,peanut butter
+M_Pears,pears
+M_Peasn,"peas, green"
+M_Peasy,"peas, dry"
+M_Pepp,pepper
+M_Peppt,"peppermint, spearmint"
+M_Perss,persimmons
+M_Pfert,phosphatic fertilizer
+M_Piges,pigeon peas
+M_Pigmeat,meat from pig (live)
+M_Pined,"pineapples, canned"
+M_Pines,pineapples
+M_Pists,pistachios
+M_Plans,plantains
+M_Plum,"plums, dried"
+M_Plums,plums
+M_Poleggs,egg
+M_Polmeat,poultry meat
+M_Poppd,poppy seed
+M_Pork_ges,"pork meat processed, sausage"
+M_Pork_ham,"pork meat processed, bacon and ham"
+M_Pork_ons,"pork meat processed, meat preparations"
+M_Pork_proc,"pork meat processed (cuts and other), global mix"
+M_Potan,frozen potatoes
+M_Potas,potatoes
+M_Prmilk,processed milk
+M_Prorice,rice
+M_Pulss,pulses nes
+M_Pumps,"pumpkins, squash and gourds"
+M_Pyred,"pyrethrum, dried flowers"
+M_Quina,quinoa
+M_Quins,quinces
+M_RATV,"radio, television and communication equipment and apparatus"
+M_REAL,real estate services
+M_RECR,"recreational, cultural and sporting services"
+M_REFF,refinery feedstocks
+M_REFN,petroleum refinery
+M_RESD,research and development services
+M_RGAS,refinery gas
+M_RUBP,rubber and plastic products
+M_RYMS,services relating to the collection and sorting of scrap/secondary materials (excl the material)
+M_Raiss,raisins
+M_Ramie,ramie
+M_Raped,rapeseed or colza seed
+M_Rasps,raspberries
+M_Rice_brok,"rice, broken"
+M_Rice_husk,"rice, husked"
+M_Rice_milhusk,"rice, milled (husked)"
+M_Rice_mill,"rice, milled"
+M_Ricey,"rice, paddy"
+M_Roots,roots and tubers nes
+M_Roscoff,roasted coffe
+M_Rubber,natural rubber
+M_Ryee,rye
+M_SDCL,sand and clay
+M_SE_INCI,incineration with energy recovery of sewage
+M_SE_INCI_no_recov,incineration of sewage
+M_SE_LAND,landfill of sewage
+M_SE_OTHE,other disposal of sewage
+M_SE_RECY,recycling of sewage
+M_SE_biog,biogasification and land application
+M_SE_wwater,provision of waste water services for sewage
+M_STEL,basic iron and steel and of ferro-alloys and first products thereof
+M_STEW,recycling of steel
+M_STON,stone
+M_ST_INCI,incineration with energy recovery of steel
+M_ST_INCI_no_recov,incineration without energy recovery of steel
+M_ST_LAND,landfill of steel
+M_ST_OTHE,other disposal of steel
+M_SUBC,sub-bituminous coal
+M_Saffd,safflower seed
+M_Seedcot,seedcotton
+M_Sesad,sesame seed
+M_Shemeat,meat from sheep (live)
+M_Shemilk,milk raw from sheep
+M_Silk_ree,"cocoons, reelable"
+M_Silkw,"silk, raw"
+M_Sisal,sisal
+M_Skin_goat,"goatskins, fresh"
+M_Skin_she,"sheepskins, fresh"
+M_Snaia,snails and sea snails
+M_Sorgm,sorghum
+M_Soyace,soya sauce
+M_Soyard,soya curd
+M_Soyate,soya paste
+M_Soybs,soybeans
+M_Spics,spices nes
+M_Spinh,spinach
+M_Starch_cass,starch of cassava
+M_Starch_maiz,starch of maize
+M_Starch_pota,starch of potatoes
+M_Starch_rice,starch of rice
+M_Starch_whea,starch of wheat
+M_Stras,strawberries
+M_Stris,string beans
+M_Sugacrs,sugar crops nes
+M_Sugae,sugar cane
+M_Sugar,sugar cane
+M_Sugar_nc,"sugar, non-centrifugal"
+M_Sugar_rc,"sugar, raw centrifugal"
+M_Sugarn,sugar and syrups nes
+M_Sugas,sugar crops nes
+M_Sugat,sugar beet
+M_Sunfd,sunflower seed
+M_Sweed,"sweet corn, prepared or preserved"
+M_Sween,"sweet corn, frozen"
+M_Swees,sweet potatoes
+M_TAIR,air transport services
+M_TAUX,supporting and auxiliary transport services; travel agency services
+M_TDFU,retail trade services of motor fuel
+M_TDMO,"sale, maintenance and repair of motor vehicles"
+M_TDRT,"retail trade services, except of motor vehicles and motorcycles; repair services of personal and household goods"
+M_TDWH,"wholesale trade and commission trade services, except of motor vehicles and motorcycles"
+M_TEXT,textiles
+M_TE_INCI,incineration with energy recovery of textiles
+M_TE_INCI_no_recov,incineration without energy recovery of textiles
+M_TE_LAND,landfill of textiles
+M_TE_RECY,recycling of textiles
+M_TLND,other land transportation services
+M_TOBC,tobacco products
+M_TPIP,transportation services via pipelines
+M_TRAI,railway transportation services
+M_TWAI,inland water transportation services
+M_TWAS,sea and coastal water transportation services
+M_Talld,tallowtree seeds
+M_Tallw,tallow
+M_Tapia,tapioca of cassava
+M_Tapis,tapioca of potatoes
+M_Taro,taro (cocoyam)
+M_Teaa,tea
+M_Tmand,"tangerines, mandarins, clementines, satsumas"
+M_Tobac,tobacco leaves
+M_Tomad,"tomatoes, peeled (o/t vinegar)"
+M_Tomae,paste of tomatoes
+M_Tomas,"tomatoes, fresh"
+M_Trite,triticale
+M_Tung_nuts,tung nuts
+M_UN_INCI,incineration with energy recovery of unsorted waste
+M_UN_INCI_no_recov,incineration without energy recovery of unsorted waste
+M_UN_LAND,landfill of unsorted waste
+M_UN_OTHE,other disposal of unsorted waste
+M_UN_RECY,recycling of unsorted waste
+M_Vania,vanilla
+M_Vegeh,homogenized vegetable preparations
+M_Vegfats,vegetable fats
+M_Vegleg_nes,"broad beans, green"
+M_Vetcs,vetches
+M_WATR,"collected and purified water, distribution services of water"
+M_WHSP,white spirit & sbp
+M_WOOD,wood and products of wood and cork (except furniture); articles of straw and planting materials
+M_WOOW,recycling of wood
+M_WO_OTHE,other disposal of wood
+M_Wafes,wafers
+M_Walnd,"walnuts, without shell"
+M_Walnl,"walnuts, in shell"
+M_Wates,watermelons
+M_Wheat,wheat
+M_Whey_con,"whey, condensed"
+M_Whey_dry,dry whey
+M_Wheye,whey cheese
+M_Wheyh,"whey, fresh"
+M_Whflour,wheat flour
+M_Wine,wine
+M_Yams,yams
+M_Yoght,yoghurt
+M_auto,cars
+M_bus,buses
+M_cOil_beans,oil of castor beans
+M_electricity,electricity
+M_feed_ener,animal feed energy
+M_feed_prot,animal feed protein
+M_frtrop_nes,"fruit, tropical (fresh) nes"
+M_fuel_TAIR,fuel mix for aviation
+M_fuel_TLND,fuel mix for road transport
+M_fuel_TRAI,fuel mix and combustion for rail transport
+M_fuel_TWAS,fuel mix and conbustion for water transport
+M_heat_CONS,fuel mix and combustion for construction
+M_heat_FISH,fuel mix and combustion for fishing
+M_heat_HOUS,fuel mix and combustion for households
+M_heat_STEL,fuel mix and combustion for iron and steel
+M_heat_TPIP,fuel mix and combustion for pipeline transport
+M_heat_WOOD,fuel mix and combustion for wood and wood products
+M_heat_agriculture,fuel mix and combustion for agriculture/forestry
+M_heat_chemicals,fuel mix and combustion for chemical and petrochemical
+M_heat_commercial,fuel mix and combustion for commercial and public services
+M_heat_food,fuel mix and combustion for food and tobacco
+M_heat_machinery,fuel mix and combustion for machinery
+M_heat_mine,fuel mix and combustion for mining and quarrying
+M_heat_motor,fuel mix and combustion for transport equipment
+M_heat_non_ferrous,fuel mix and combustion for non-ferrous metals
+M_heat_non_metallic,fuel mix and combustion for non-metallic minerals
+M_heat_other,fuel mix and combustion for industry not elsewhere specified
+M_heat_paper,"fuel mix and combustion for paper, pulp and printing"
+M_heat_textile,fuel mix and combustion for textile and leather
+M_lCammeat,camel meat
+M_lPolmeat,poultry
+M_lSwmeat,swine
+M_oFibrs,fibre crops nes
+M_oFru_cit,citrus fruit nes
+M_oFru_fresh,"fruit, fresh nes"
+M_oFru_pom,pome fruit nes
+M_oFru_ston,"stone fruit, fresh nes"
+M_oVege_fresh,"vegetables, fresh n.e.s."
+M_pBovmeat,"beef meat as carcass, global mix"
+M_pDermeat,"other products from meat, global mix (lard, fat, homogenized meat)"
+M_pMuGomeat,mutton and goat meat
+M_pOthmeat,meat other
+M_pPigmeat,"pig meat as carcass, global mix"
+M_pPolmeat,poultry meat
+M_palm,oil palm fruit
+M_truck,trucks
+M_vOil_nes,oil of vegetable origin nes
+M_wAlum,treatment of aluminium
+M_wAsh,treatment of ash
+M_wBatt,treatment of batteries and accumulators
+M_wCons,treatment of construction
+M_wCopp,treatment of copper
+M_wDisc_eq,treatment of discarded equipment
+M_wDisc_veh,treatment of discarded vehicles
+M_wFood,treatment of food
+M_wGlas,treatment of glass
+M_wHazar,treatment of hazardous
+M_wLead,treatment of lead
+M_wManu,treatment of manure
+M_wMix_met,treatment of mix metals
+M_wMix_nonferr,treatment of mix metals non-ferrous
+M_wPape,treatment of paper
+M_wPlas,treatment of plastic
+M_wPrec,treatment of precious metals
+M_wSewage,treatment of sewage
+M_wSteel,treatment of steel
+M_wText,treatment of textiles
+M_wUnsort,treatment of unsorted waste
+M_wWood,treatment of wood
+grassland to pasture,"land transformation, grassland to pasture"
+intensification of cropland,"land transformation, intensification of cropland"
+intensification of pasture,"land transformation, intensification of pasture"
+primary forest to managed forest,"land transformation, primary forest to managed forest"
+secondary forest to crop,"land transformation, secondary forest to crop"
+secondary forest to managed forest,"land transformation, secondary forest to managed forest"

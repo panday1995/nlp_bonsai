@@ -1,0 +1,96 @@
+exiob_descrip,treatment,Exiobase code
+Batteries and accumulators wastes,landfill,C_BA_LAND
+Batteries and accumulators wastes,incineration,C_BA_INCI_no_recov
+Batteries and accumulators wastes,other_disposal,C_BA_OTHE
+Batteries and accumulators wastes,energy_recovery,C_BA_INCI
+Batteries and accumulators wastes,recyling,C_BA_RECY
+Construction,landfill,C_CO_LAND
+Construction,incineration,C_CO_INCI_no_recov
+Construction,other_disposal,C_CO_OTHE
+Construction,energy_recovery,C_CO_INCI
+Construction,recyling,C_CONW
+Discarded equipment,landfill,C_DE_LAND
+Discarded equipment,incineration,C_DE_INCI_no_recov
+Discarded equipment,other_disposal,C_DE_OTHE
+Discarded equipment,energy_recovery,C_DE_INCI
+Discarded equipment,recyling,C_DE_RECY
+Discarded vehicles,landfill,C_DV_LAND
+Discarded vehicles,incineration,C_DV_INCI_no_recov
+Discarded vehicles,other_disposal,C_DV_OTHE
+Discarded vehicles,energy_recovery,C_DV_INCI
+Discarded vehicles,recyling,C_DV_RECY
+Food,landfill,C_LANF
+Food,incineration,C_INCF_no_recov
+Food,other_disposal,C_FO_OTHE
+Food,energy_recovery,C_INCF
+Food,recyling,C_FO_RECY
+Glass,landfill,C_GL_LAND
+Glass,incineration,C_GL_INCI_no_recov
+Glass,other_disposal,C_GL_OTHE
+Glass,energy_recovery,C_GL_INCI
+Glass,recyling,C_GLAW
+Hazardous,landfill,C_HA_LAND
+Hazardous,incineration,C_HA_INCI_no_recov
+Hazardous,other_disposal,C_HA_OTHE
+Hazardous,energy_recovery,C_HA_INCI
+Hazardous,recyling,C_HA_RECY
+Manure,landfill,C_MA_LAND
+Manure,incineration,C_MA_INCI_no_recov
+Manure,other_disposal,C_MA_OTHE
+Manure,energy_recovery,C_MA_INCI
+Manure,recyling,C_MA_RECY
+Mix_metals,landfill,C_MM_LAND
+Mix_metals,incineration,C_MM_INCI_no_recov
+Mix_metals,other_disposal,C_MM_OTHE
+Mix_metals,energy_recovery,C_MM_INCI
+Mix_metals,recyling,C_MM_RECY
+Mix_metals_non_ferrous,landfill,C_MNF_LAND
+Mix_metals_non_ferrous,incineration,C_MNF_INCI_no_recov
+Mix_metals_non_ferrous,other_disposal,C_MNF_OTHE
+Mix_metals_non_ferrous,energy_recovery,C_MNF_INCI
+Mix_metals_non_ferrous,recyling,C_MNF_RECY
+Paper,landfill,C_LANP
+Paper,incineration,C_INCP_no_recov
+Paper,other_disposal,C_PA_OTHE
+Paper,energy_recovery,C_INCP
+Paper,recyling,C_PAPR
+Plastic,landfill,C_LANL
+Plastic,incineration,C_INCL_no_recov
+Plastic,other_disposal,C_PL_OTHE
+Plastic,energy_recovery,C_INCL
+Plastic,recyling,C_PLAW
+Rubber,landfill,C_LANL
+Rubber,incineration,C_INCL_no_recov
+Rubber,other_disposal,C_PL_OTHE
+Rubber,energy_recovery,C_INCL
+Rubber,recyling,C_PLAW
+Sewage,landfill,C_SE_LAND
+Sewage,incineration,C_SE_INCI_no_recov
+Sewage,other_disposal,C_SE_OTHE
+Sewage,energy_recovery,C_SE_INCI
+Sewage,recyling,C_SE_RECY
+Steel,landfill,C_ST_LAND
+Steel,incineration,C_ST_INCI
+Steel,other_disposal,C_ST_OTHE
+Steel,energy_recovery,C_ST_INCI_no_recov
+Steel,recyling,C_STEW
+Textiles,landfill,C_TE_LAND
+Textiles,incineration,C_TE_INCI_no_recov
+Textiles,other_disposal,C_TE_OTHE
+Textiles,energy_recovery,C_TE_INCI
+Textiles,recyling,C_TE_RECY
+Unsorted waste,landfill,C_UN_LAND
+Unsorted waste,incineration,C_UN_INCI_no_recov
+Unsorted waste,other_disposal,C_UN_OTHE
+Unsorted waste,energy_recovery,C_UN_INCI
+Unsorted waste,recyling,C_UN_RECY
+Wood,landfill,C_LANW
+Wood,incineration,C_INCW_no_recovery
+Wood,other_disposal,C_WO_OTHE
+Wood,energy_recovery,C_INCW
+Wood,recyling,C_WOOW
+Ash,landfill,C_AS_LAND
+Ash,incineration,C_AS_INCI_no_recov
+Ash,other_disposal,C_AS_OTHE
+Ash,energy_recovery,C_AS_INCI
+Ash,recyling,C_ASHW
