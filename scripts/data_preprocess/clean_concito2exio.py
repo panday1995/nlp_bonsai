@@ -8,7 +8,7 @@ def clean_concito2exio() -> pd.DataFrame:
         RAW_CONCITO2EXIO["path"], sheet_name=RAW_CONCITO2EXIO["sheet_name"]
     )
     df_exio_prod: pd.DataFrame = pd.read_excel(
-        EXIO_CLASSIF["path"], sheet_name=EXIO_CLASSIF["sheet_prod"]
+        EXIO_CLASSIF["path"], sheet_name=EXIO_CLASSIF["sheet_name"]
     )
     df_concito2exio_clean = df_concito2exio.merge(
         df_exio_prod, left_on="exio4_id", right_on="Exio prod code", how="left"

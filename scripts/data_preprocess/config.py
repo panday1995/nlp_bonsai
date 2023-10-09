@@ -18,9 +18,13 @@ RAW_CONCITO2EXIO = {
     "sheet_name": "concito500_exio4_list",
 }
 
+RAW_IEA2EXIO = {
+    "path": DIR_HOME / "data/raw/IEAvsExiobase_products.xlsx",
+    "sheet_name": "prod_corres",
+}
 EXIO_CLASSIF = {
     "path": DIR_HOME / "data/raw/Master_classif_exio4.xlsx",
-    "sheet_prod": "unit_products",
+    "sheet_name": "unit_products",
 }
 
 
