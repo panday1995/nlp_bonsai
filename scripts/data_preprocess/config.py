@@ -13,6 +13,16 @@ RAW_FAO2EXIO = {
     "sheet_name": "Exio4_vs_FAO",
 }
 
+RAW_CONCITO2EXIO = {
+    "path": DIR_HOME / "data/raw/concito500_exio4.xlsx",
+    "sheet_name": "concito500_exio4_list",
+}
+
+EXIO_CLASSIF = {
+    "path": DIR_HOME / "data/raw/Master_classif_exio4.xlsx",
+    "sheet_prod": "unit_products",
+}
+
 
 ####################
 # sql connection definition
