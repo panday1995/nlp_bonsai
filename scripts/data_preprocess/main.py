@@ -12,6 +12,9 @@ def main():
     df_concito2exio_clean = clean_concito2exio()
     df_iea2exio_clean = clean_iea2exio()
     df_corr = pd.concat([df_fao2exio_clean, df_concito2exio_clean, df_iea2exio_clean])
+    breakpoint()
+    df_corr = df_corr.applymap(lambda x: x.lower())
+    breakpoint()
     df_corr.to_sql(
         Correspondence.__tablename__, ENGINE, if_exists="replace", index=False
     )

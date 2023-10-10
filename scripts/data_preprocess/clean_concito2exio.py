@@ -19,7 +19,8 @@ def clean_concito2exio() -> pd.DataFrame:
         }
     )
 
-    df_concito2exio_clean[Schema.SOURCE_EXTERNAL.value] = "Concito"
+    df_concito2exio_clean[Schema.SOURCE_EXTERNAL.value] = "concito"
+    breakpoint()
     return df_concito2exio_clean
 
 

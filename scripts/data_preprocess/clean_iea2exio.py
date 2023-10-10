@@ -26,7 +26,7 @@ def clean_iea2exio() -> pd.DataFrame:
         )
     )
     df_iea2exio_clean[Schema.SOURCE_EXTERNAL.value] = "iea"
-    return df_iea2exio_clean
+    return df_iea2exio_clean.dropna()
 
 
 if __name__ == "__main__":
