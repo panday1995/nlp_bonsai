@@ -6,7 +6,7 @@ from sqlalchemy import create_engine
 # raw data definition
 ####################
 
-DIR_HOME = Path("../../")
+DIR_HOME = Path(__file__).parent.parent
 
 RAW_FAO2EXIO = {
     "path": DIR_HOME / "data/raw/Exio4_vs_FCL.xlsx",

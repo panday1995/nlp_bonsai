@@ -1,6 +1,7 @@
 import pandas as pd
-from config import ENGINE, EXIO_CLASSIF, RAW_CONCITO2EXIO
-from models import Base, Correspondence, Schema
+
+from bonsait.config import ENGINE, EXIO_CLASSIF, RAW_CONCITO2EXIO
+from bonsait.models import Base, Correspondence, Schema
 
 
 def clean_concito2exio() -> pd.DataFrame:
