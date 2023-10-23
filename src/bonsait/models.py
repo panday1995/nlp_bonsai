@@ -8,8 +8,8 @@ Base = declarative_base()
 
 
 class Schema(Enum):
-    DESCRIP_BONSAI = "description_bonsai"
-    DESCRIP_EXTERNAL = "description_external"
+    DESCRIP_BONSAI = "name_bonsai"
+    DESCRIP_EXTERNAL = "name_external"
     SOURCE_EXTERNAL = "source_external"
 
 
