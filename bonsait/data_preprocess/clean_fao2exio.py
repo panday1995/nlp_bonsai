@@ -19,7 +19,9 @@ def clean_fao2exio():
         }
     )
 
-    df_exio2fao_clean[Schema.SOURCE_EXTERNAL.value] = "Faostat"
+    df_exio2fao_clean[
+        Schema.SOURCE_EXTERNAL.value
+    ] = "Food and Agriculture Organization Corporate Statistical Database"
     return df_exio2fao_clean
 
 

@@ -1,0 +1,7 @@
+﻿model_name,dataset,accuracy
+multi-qa-mpnet-base-dot-v1,name,0.572
+all-MiniLM-L6-v2,name,0.564
+all-mpnet-base-v2,name,0.563
+all-mpnet-base-v2,name+source,0.482
+all-MiniLM-L6-v2,name+source,0.536
+multi-qa-mpnet-base-dot-v1,name+source,0.558

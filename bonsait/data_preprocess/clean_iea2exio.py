@@ -26,7 +26,7 @@ def clean_iea2exio() -> pd.DataFrame:
             }
         )
     )
-    df_iea2exio_clean[Schema.SOURCE_EXTERNAL.value] = "iea"
+    df_iea2exio_clean[Schema.SOURCE_EXTERNAL.value] = "International Energy Agency"
     return df_iea2exio_clean.dropna()
 
 

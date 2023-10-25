@@ -1,1 +1,1 @@
-from match import CorrFinder
+from .match import CorrFinder
