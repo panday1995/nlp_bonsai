@@ -1,6 +1,6 @@
 import pandas as pd
 
-from bonsait.config import ENGINE, RAW_FAO2EXIO
+from bonsait.configs import ENGINE, RAW_FAO2EXIO
 from bonsait.models import Base, Correspondence, Schema
 
 

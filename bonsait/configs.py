@@ -3,7 +3,7 @@ from pathlib import Path
 from sqlalchemy import create_engine
 
 ####################
-# raw data definition
+# raw correspondence definition
 ####################
 
 DIR_HOME = Path(__file__).parent.parent
@@ -27,6 +27,18 @@ EXIO_CLASSIF = {
     "sheet_name": "unit_products",
 }
 
+
+######################
+# nlp model definition
+######################
+
+DEFAULT_MODEL = "all-mpnet-base-v2"
+
+######################
+# base dimension table definition
+######################
+
+BONSAI_ACTIVITY_API = "https://lca.aau.dk/api/activity-names"
 
 ####################
 # sql connection definition
