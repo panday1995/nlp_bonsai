@@ -1,1 +1,1 @@
-from .core import ClassTransformer
+from .core import ClassTransformer  # noqa: F401
