@@ -1,6 +1,6 @@
 # BonsaiT: An Interface for BONSAI classifications
 
-BonsaiT is a Python package for the standardization of Life-Cycle Assessment (LCA) data. It leverages NPL to aligns external classification systems with the BONSAI framework, ensuring data consistency across LCA datasets.
+BonsaiT is a Python package for the standardization of Life-Cycle Assessment (LCA) data. It leverages NLP to aligns external classification systems with the BONSAI framework, ensuring data consistency across LCA datasets.
 
 Key components include the Encoder, which converts text to vectors via language models like Sentence Transformers and Hugging Face's BERT, and the ClassTransformer, which identifies the BONSAI class most similar to a given source class through vector analysis and cosine similarity.
 
