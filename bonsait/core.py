@@ -6,10 +6,13 @@ import torch
 from sentence_transformers import SentenceTransformer
 from transformers import BertModel, BertTokenizer
 
-from bonsait.configs import BONSAI_ACTIVITY_API, DEFAULT_MODEL
+from bonsait.configs import BONSAI_ACTIVITY_API, BONSAI_API_KEY, DEFAULT_MODEL
+from bonsait.utils.similarity_func import calc_cosine_similarity
 
 
-def get_bonsai_activity_classification(url: str = BONSAI_ACTIVITY_API) -> Iterable[str]:
+def get_bonsai_activity_classification(
+    url: str = BONSAI_ACTIVITY_API, key: str = BONSAI_API_KEY
+) -> Iterable[str]:
     """Get BONSAI's activity classification using its API
 
     Parameters
@@ -22,12 +25,15 @@ def get_bonsai_activity_classification(url: str = BONSAI_ACTIVITY_API) -> Iterab
     Iterable[str]
         a list of activity classifications
     """
+
     try:
-        response = requests.get(url)
+        headers = {"Authorization": f"Token {BONSAI_API_KEY}"}
+        response = requests.get(url, headers=headers)
         response.raise_for_status()
         activities_data = response.json()
 
         activity_names = [activity["description"] for activity in activities_data]
+        print(f"successfully fetched activity classifications from {url}")
         return activity_names
     except requests.exceptions.HTTPError as http_err:
         print(f"HTTP error occurred: {http_err}")
@@ -43,7 +49,7 @@ def get_bonsai_activity_classification(url: str = BONSAI_ACTIVITY_API) -> Iterab
     return []
 
 
-class ModelEncoder:
+class Encoder:
     def __init__(self, encoder=None, tokenizer=None, device: str = "cpu") -> None:
         self.encoder = encoder
         self.tokenizer = tokenizer
@@ -82,16 +88,18 @@ class ModelEncoder:
             )
 
 
-class CorrespondenceFinder:
+class ClassTransformer:
     def __init__(
         self,
+        source_class: str | None = None,
         target_class: list[str] | None = None,
-        model: Optional[ModelEncoder] = None,
+        model: Optional[Encoder] = None,
         device: str = "cpu",
     ) -> None:
+        self._source_class = source_class
         self._target_class = target_class
         if target_class is None:
-            logging.info(
+            print(
                 f"get BONSAI activity classification as the default target clasification from {BONSAI_ACTIVITY_API}"
             )
             self._target_class = get_bonsai_activity_classification()
@@ -100,7 +108,7 @@ class CorrespondenceFinder:
             logging.info(
                 f"No model is provided, the default model {DEFAULT_MODEL} is used"
             )
-            model = ModelEncoder.from_sentence_transformer(model_name=DEFAULT_MODEL)
+            model = Encoder.from_sentence_transformer(model_name=DEFAULT_MODEL)
         self._model = model
         self._device = device
 
@@ -127,11 +135,8 @@ class CorrespondenceFinder:
         self._source_class = value
 
     def encode_source_class(self):
-        if isinstance(self._model, SentenceTransformer):
-            array_source = self._model.encode(
-                self._source_class, convert_to_tensor=True
-            ).unsqueeze(0)
-            return array_source
+        array_source = self._model.encode(self._source_class).unsqueeze(0)
+        return array_source
 
     def encode_target_class(self):
         if not self._target_class:
@@ -142,10 +147,9 @@ class CorrespondenceFinder:
         ]
         return encoded_classes
 
-    def get_correspondence(
+    def transform(
         self,
-        target_vectors: List[torch.Tensor],
-        similarity_func: callable,
+        similarity_func: callable = None,
     ):
         """
         Computes the correspondence classification from target_class
@@ -157,6 +161,11 @@ class CorrespondenceFinder:
 
         # Stack all target vectors to create the target matrix
         target_matrix = torch.stack(target_vectors).to(self._device)
+        if similarity_func is None:
+            logging.info(
+                f"No similarity func provided, using the default cosine similarity: {calc_cosine_similarity.__name__}"
+            )
+            similarity_func = calc_cosine_similarity
         similarity_scores = similarity_func(source_vector, target_matrix)
         idx_most_similar = torch.argmax(similarity_scores, dim=1).item()
 

@@ -1,1 +1,1 @@
-from .match import CorrespondenceFinder
+from .core import ClassTransformer

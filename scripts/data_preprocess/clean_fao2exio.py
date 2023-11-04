@@ -1,7 +1,7 @@
 import pandas as pd
 
-from bonsait.configs import ENGINE, RAW_FAO2EXIO
-from bonsait.models import Base, Correspondence, Schema
+from scripts.configs import ENGINE, RAW_FAO2EXIO
+from scripts.models import Base, Correspondence, Schema
 
 
 def clean_fao2exio():

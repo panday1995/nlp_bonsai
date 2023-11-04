@@ -3,8 +3,8 @@ from clean_concito2exio import clean_concito2exio
 from clean_fao2exio import clean_fao2exio
 from clean_iea2exio import clean_iea2exio
 
-from bonsait.configs import ENGINE
-from bonsait.models import Base, Correspondence
+from scripts.configs import ENGINE
+from scripts.models import Base, Correspondence
 
 
 def main():

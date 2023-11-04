@@ -1,1 +1,1 @@
-from similarity_func import cosine_similarity
+from bonsait.utils.similarity_func import calc_cosine_similarity, cosine_similarity
