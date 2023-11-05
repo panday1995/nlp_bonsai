@@ -13,4 +13,4 @@ def test_encode_target_class(class_transformer):
 def test_transform(class_transformer):
     transformed_class = class_transformer.transform()
     assert isinstance(transformed_class, str)
-    assert transformed_class in class_transformer.target_class
+    assert transformed_class in class_transformer.target_class.values

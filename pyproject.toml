@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "bonsait"
-version = "0.1.1"
+version = "0.1.1-alpha"
 description = ""
 authors = ["mikoto <fanyang@plan.aau.dk>"]
 readme = "README.md"

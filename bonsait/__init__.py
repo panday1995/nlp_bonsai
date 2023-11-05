@@ -1,1 +1,2 @@
-from .core import ClassTransformer  # noqa: F401
+from .class_repo import BaseClass, EmbeddingCache
+from .core import BonsaiTransformer  # noqa: F401
