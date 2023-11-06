@@ -1,30 +1,20 @@
 import logging
-from typing import Iterable, List, Optional
+from typing import Iterable, Optional
 
 import torch
 
 from bonsait.class_repo import BaseClass, EmbeddingCache
 from bonsait.configs import BONSAI_ACTIVITY_API, DEFAULT_MODEL
-from bonsait.model_repo import Encoder
+from bonsait.models import Encoder
 from bonsait.utils.similarity_func import calc_cosine_similarity
 
 
 class BonsaiTransformer:
     def __init__(
         self,
-        source_class: str | None = None,
-        target_class: BaseClass | None = None,
         model: Optional[Encoder] = None,
         device: str = "cpu",
     ) -> None:
-        self._source_class = source_class
-        self._target_class = target_class
-        if target_class is None:
-            self._target_class = BaseClass.from_bonsai(class_name="activity")
-            print(
-                f"get BONSAI activity classification as the default target classification from {BONSAI_ACTIVITY_API}"
-            )
-
         if model is None:
             logging.info(
                 f"No model is provided, the default model {DEFAULT_MODEL} is used"
@@ -33,33 +23,38 @@ class BonsaiTransformer:
         self._model = model
         self._device = device
 
-    @property
-    def target_class(self) -> Optional[List[str]]:
-        return self._target_class
+        self._source_class = None
+        self._target_class = None
 
-    @target_class.setter
-    def target_class(self, value: Iterable[str]):
-        if not isinstance(value, Iterable):
-            raise ValueError("target_class must be a list of strings.")
-        if not all(isinstance(item, str) for item in value):
-            raise ValueError("Each item in target_class must be a string.")
-        if not value:
-            raise ValueError("target_class list cannot be empty.")
-        self._target_class = value
+    def _validate_class(self, class_value: Iterable) -> None:
+        if not isinstance(class_value, Iterable):
+            raise ValueError("class_value must be a list of strings.")
+        if not all(isinstance(item, str) for item in class_value):
+            raise ValueError("Each item in class_value must be a string.")
+        if not class_value:
+            raise ValueError("class_value list cannot be empty.")
 
-    @property
-    def source_class(self) -> Optional[str]:
-        return self._source_class
+    def set_target_class(self, target_class: BaseClass = None):
+        if target_class is None:
+            target_class = BaseClass.from_bonsai(class_name="activity")
+            print(
+                f"get BONSAI activity classification as the default target classification from {BONSAI_ACTIVITY_API}"
+            )
+        self._validate_class(target_class.values)
+        self._target_class = target_class
 
-    @source_class.setter
-    def source_class(self, value: str):
-        self._source_class = value
+    def set_source_class(self, source_class: str):
+        self._source_class = source_class
 
-    def encode_source_class(self):
+    def encode_source_class(self, source_class: str) -> torch.Tensor:
+        self.set_source_class(source_class)
         array_source = self._model.encode(self._source_class).unsqueeze(0)
         return array_source
 
-    def encode_target_class(self, cache: EmbeddingCache = EmbeddingCache()):
+    def encode_target_class(
+        self, target_class: BaseClass = None, cache: EmbeddingCache = EmbeddingCache()
+    ):
+        self.set_target_class(target_class)
         if not self._target_class:
             raise ValueError("target_class is not set")
         class_embedding_cached = cache.load_embedding(
@@ -81,15 +76,17 @@ class BonsaiTransformer:
 
     def transform(
         self,
-        similarity_func: callable = None,
+        source_class: Optional[str] = None,
+        target_class: Optional[BaseClass] = None,
+        similarity_func: Optional[callable] = None,
     ):
         """
         Computes the correspondence classification from target_class
         that is most similar to the source_class based on cosine similarity.
         """
 
-        source_vector = self.encode_source_class()
-        target_vectors = self.encode_target_class()
+        source_vector = self.encode_source_class(source_class)
+        target_vectors = self.encode_target_class(target_class)
 
         # Stack all target vectors to create the target matrix
         target_matrix = torch.stack(target_vectors).to(self._device)

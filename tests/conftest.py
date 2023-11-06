@@ -14,7 +14,7 @@ def temp_dir():
 
 @pytest.fixture
 def class_transformer():
-    class_transformer = BonsaiTransformer(source_class="test_class")
+    class_transformer = BonsaiTransformer()
     return class_transformer
 
 

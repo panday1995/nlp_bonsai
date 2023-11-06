@@ -23,10 +23,10 @@ from bonsait import BonsaiTransformer
 source_class = "electricity from coal"
 
 # Set up the BonsaiTransformer with your source classification
-class_transformer = BonsaiTransformer(source_class=source_class)
+class_transformer = BonsaiTransformer()
 
 # Perform the transformation to find the BONSAI equivalent
-transformed_class = class_transformer.transform()
+transformed_class = class_transformer.transform(source_class=source_class)
 print(f"The source classification <{source_class}> is transformed into BONSAI classification: <{transformed_class}>")
 ```
 
