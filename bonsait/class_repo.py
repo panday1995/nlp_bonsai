@@ -6,8 +6,8 @@ import os
 from pathlib import Path
 from typing import Iterable, Optional
 
-import numpy as np
 import requests
+import torch
 
 from bonsait.configs import BONSAI_ACTIVITY_API, BONSAI_API_KEY, CACHE_DIR
 
@@ -27,12 +27,12 @@ class EmbeddingCache:
         return hashlib.sha256(class_value_byte).hexdigest()
 
     def _get_file_path(self, hash: str) -> Path:
-        return self.cache_dir / f"{hash}.npy"
+        return self.cache_dir / f"{hash}.pt"
 
     def save_embedding(self, encoding, class_value: Iterable):
         hash = self._get_hash(class_value)
         file_path = self._get_file_path(hash)
-        np.save(file_path, encoding)
+        torch.save(encoding, file_path)
 
     def load_embedding(self, class_value: Optional[Iterable]):
         if not class_value:
@@ -40,7 +40,7 @@ class EmbeddingCache:
         hash = self._get_hash(class_value)
         file_path = self._get_file_path(hash)
         if os.path.exists(file_path):
-            return np.load(file_path, allow_pickle=True)
+            return torch.load(file_path)
 
 
 class BaseClass:

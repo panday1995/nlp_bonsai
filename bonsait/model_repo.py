@@ -23,7 +23,7 @@ class Encoder:
         return cls(encoder, tokenizer, device)
 
     def encode(self, sentences, return_tensors="pt"):
-        if self.tokenizer:  # Assuming this means we're using Hugging Face BERT
+        if self.tokenizer:  # use Hugging Face BERT
             tokens = self.tokenizer(
                 sentences, padding=True, truncation=True, return_tensors=return_tensors
             )
@@ -36,7 +36,7 @@ class Encoder:
             ]  # Use the [CLS] token embeddings
             return embeddings
 
-        else:  # Assuming this is for SentenceTransformer
+        else:
             return self.encoder.encode(sentences, convert_to_tensor=True).to(
                 self.device
             )
