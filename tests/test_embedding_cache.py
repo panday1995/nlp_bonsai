@@ -10,7 +10,7 @@ def test_save_and_load_embedding(embedding_cache, temp_dir):
 
     # Ensure the file is saved
     hash = embedding_cache._get_hash(class_value)
-    file_path = temp_dir / f"{hash}.npy"
+    file_path = temp_dir / f"{hash}.pt"
     assert file_path.exists()
 
     # Load the encoding

@@ -62,20 +62,22 @@ class BonsaiTransformer:
     def encode_target_class(self, cache: EmbeddingCache = EmbeddingCache()):
         if not self._target_class:
             raise ValueError("target_class is not set")
-        encoded_class = cache.load_embedding(class_value=self._target_class.values)
-        if encoded_class is not None:
+        class_embedding_cached = cache.load_embedding(
+            class_value=self._target_class.values
+        )
+        if class_embedding_cached is not None:
             print("Using cached classifications")
-            return encoded_class
+            return class_embedding_cached
         else:
             print(f"Start encoding {self._target_class.name}")
-            encoded_classes = [
+            class_embedding = [
                 self._model.encode(classification)
                 for classification in self._target_class.values
             ]
             cache.save_embedding(
-                encoding=encoded_class, class_value=self._target_class.values
+                encoding=class_embedding, class_value=self._target_class.values
             )
-            return encoded_classes
+            return class_embedding
 
     def transform(
         self,
