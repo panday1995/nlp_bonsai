@@ -65,6 +65,7 @@ class BonsaiTransformer:
             return class_embedding_cached
         else:
             print(f"Start encoding {self._target_class.name}")
+            # TODO: add parallelism here
             class_embedding = [
                 self._model.encode(classification)
                 for classification in self._target_class.values
