@@ -59,6 +59,14 @@ class BaseClass:
             return cls(name="activity", src=class_activity)
 
 
+class Connector:
+    def get_bonsai_activity_classifications(self, key: str = None):
+        ...
+
+    def submit(self):
+        ...
+
+
 def get_bonsai_activity_classification(
     url: str = BONSAI_ACTIVITY_API, key: str = None
 ) -> Iterable[str]:

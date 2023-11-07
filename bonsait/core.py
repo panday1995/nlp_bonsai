@@ -1,9 +1,9 @@
 import logging
-from typing import Iterable, Optional
+from typing import Iterable, Optional, Union
 
 import torch
 
-from bonsait.class_repo import BaseClass, EmbeddingCache
+from bonsait.cache import BaseClass, EmbeddingCache
 from bonsait.configs import BONSAI_ACTIVITY_API, DEFAULT_MODEL
 from bonsait.models import Encoder
 from bonsait.utils.similarity_func import calc_cosine_similarity
@@ -43,7 +43,8 @@ class BonsaiTransformer:
         self._validate_class(target_class.values)
         self._target_class = target_class
 
-    def set_source_class(self, source_class: str):
+    def set_source_class(self, source_class: Union[str, list]):
+        # TODO: add support for multiple source classes
         self._source_class = source_class
 
     def encode_source_class(self, source_class: str) -> torch.Tensor:
