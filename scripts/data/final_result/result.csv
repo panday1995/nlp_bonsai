@@ -1,7 +1,11 @@
-﻿model_name,dataset,accuracy
-multi-qa-mpnet-base-dot-v1,name,0.572
-all-MiniLM-L6-v2,name,0.564
-all-mpnet-base-v2,name,0.563
-all-mpnet-base-v2,name+source,0.482
-all-MiniLM-L6-v2,name+source,0.536
-multi-qa-mpnet-base-dot-v1,name+source,0.558
+﻿model_name,dataset,accuracy,Method Description
+multi-qa-mpnet-base-dot-v1,name,0.572,zero-shot
+all-MiniLM-L6-v2,name,0.564,zero-shot
+all-mpnet-base-v2,name,0.563,zero-shot
+all-mpnet-base-v2,name+source,0.482,zero-shot
+all-MiniLM-L6-v2,name+source,0.536,zero-shot
+multi-qa-mpnet-base-dot-v1,name+source,0.558,zero-shot
+bert-base-uncased,name,0.442,zero-shot
+bert-base-uncased,name+source,0.036,zero-shot
+bert-base-uncased,name+source,0.045,"fine-tuning with a sequence classification layer with 10% test dataset, epoch=10, learning rate \2e-5, batch size 32, "
+bert-base-uncased,name,0.045,"fine-tuning with a sequence classification layer with 10% test dataset, epoch=10, learning rate \2e-5, batch size 32, "
