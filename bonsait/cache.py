@@ -47,24 +47,72 @@ class BaseClass:
     def __init__(self, name: str, src: Iterable) -> None:
         self.values = src
         self.name = name
+        self.validate()
+
+    def validate(self) -> None:
+        """Validate that the class values are an iterable of strings."""
+        if not isinstance(self.values, Iterable):
+            raise ValueError("class_value must be a list of strings.")
+        if not all(isinstance(item, str) for item in self.values):
+            raise ValueError("Each item in class_value must be a string.")
+        if not self.values:
+            raise ValueError("class_value list cannot be empty.")
 
     @classmethod
     def from_bonsai(
         cls,
-        class_name: str,  # , cache: Optional[ClassCache] = None
+        name: str,  # , cache: Optional[ClassCache] = None
     ) -> "BaseClass":
-        if class_name == "activity":
+        if name == "activity":
             key = BONSAI_API_KEY if BONSAI_API_KEY else None
             class_activity = get_bonsai_activity_classification(key=key)
             return cls(name="activity", src=class_activity)
 
+    @classmethod
+    def from_excel(
+        cls,
+        path,
+        string_col: Optional[str] = None,
+        name: Optional[str] = None,
+        *args,
+        **kwargs,
+    ) -> "BaseClass":
+        import pandas as pd
+
+        df_class: pd.DataFrame = pd.read_excel(path, *args, **kwargs)
+        if string_col:
+            if string_col not in df_class.columns:
+                raise ValueError(
+                    f"The column '{string_col}' does not exist in the Excel file."
+                )
+            ls_description = df_class[string_col].astype(str).tolist()
+        else:
+            ls_description = None
+            for col in df_class.columns:
+                # Ensure all entries are strings
+                all_strings = df_class[col].apply(lambda x: isinstance(x, str)).all()
+
+                if all_strings:
+                    # Check if there are strings that have a length more than 20 characters
+                    valid_length = df_class[col].apply(lambda x: len(x) > 20).any()
+                    if valid_length:
+                        ls_description = df_class[
+                            col
+                        ].tolist()  # Use as list of strings
+                        print(
+                            f"No value provided to `string_col` arg. `{col}` is inferred as classification description column"
+                        )
+                        break
+
+            if ls_description is None:
+                raise ValueError("No suitable string column found in the Excel file.")
+        return BaseClass(name=name if name else "UnnamedClass", src=ls_description)
+
 
 class Connector:
-    def get_bonsai_activity_classifications(self, key: str = None):
-        ...
+    def get_bonsai_activity_classifications(self, key: str = None): ...
 
-    def submit(self):
-        ...
+    def submit(self): ...
 
 
 def get_bonsai_activity_classification(
