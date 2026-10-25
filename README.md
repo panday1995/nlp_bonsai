@@ -12,6 +12,16 @@ BonsaiT can be used to:
 
 ## Installation
 
+Requires Python 3.11 or 3.12. Python 3.10 is no longer supported because
+Pillow 13 (required for the October 2026 security fixes) requires Python 3.11+.
+NumPy remains on the 1.x series to avoid an unrelated NumPy 2 migration.
+
+For development, use Poetry 2.5.1 and install the committed lockfile with
+`poetry sync`. The security refresh upgrades Sentence Transformers from 2.x
+to 6.x; only load models from trusted sources and validate your model-specific
+embedding results before deploying. Existing installations must be upgraded;
+changing this repository does not patch environments already deployed.
+
 To get started with BonsaiT, install it via pip:
 ```Bash
 pip install bonsait
